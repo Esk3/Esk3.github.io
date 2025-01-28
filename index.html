@@ -1,1 +1,64 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="https://github.com/Esk3" target="_blank" rel="noopener noreferrer">Github</a>
+    </h1>
+  </header>
+
+  <main>
+    <ul class="p-liste">
+      <li>
+        <h2>Redis server</h2>
+        <a href="https://github.com/Esk3/rustis" target="_blank" rel="noopener noreferrer">link</a>
+        <p>Språk: rust</p>
+        <p>
+          En server som følger Redis Serialization Protocol (RESP) som kan:
+        <ul>
+          <li>Lagre og hente key value pairs</li>
+          <li>Replikering: lederen sender writes til read only replicas</li>
+          <li>Redis streams: en redis stream er et append only datastructure hvor hvert element har en unikt timestamp
+            og id som key. Som kan pushe ny data til klienter istenden for å må bruke request polling</li>
+          <li>Request pipelining</li>
+          <li>Transactions</li>
+        </ul>
+        </p>
+      </li>
+      <li>
+        <h2>Pokemon kort trading</h2>
+        <a href="https://github.com/Esk3/poketrader" target="_blank" rel="noopener noreferrer">link</a>
+        <p>Tech stack: asp dotnet, svelte, sveltekit</p>
+        <ul>
+          <li>Liste av pokemon kort</li>
+          <li>Butik med liste av pokemon kort med priser</li>
+          <li>Kjøp pokemon kort fra buttiken med "pokebucks"</li>
+          <li>Inventory med brukerens pokemon kort</li>
+          <li>Market hvor brukere kan sette pokemon kort opp for salg og andre bruker kan velge kort de vil bytte for
+          </li>
+          <li>Privat bytt hvor 2 brukerer kan velge kort de vil bytte</li>
+        </ul>
+      </li>
+      <li>
+        <h2>Unix-like shell</h2>
+        <a href="https://github.com/Esk3/shelly" target="_blank" rel="noopener noreferrer">link</a>
+        <p>Språk: rust</p>
+        <ul>
+          <li>Inbygget shell commands som: Change Director, Print Working Directory, Echo, Exit, command Type</li>
+          <li>Kjør programmer i PATH</li>
+          <li>Autocomplete builtin shell commands med TAB</li>
+        </ul>
+      </li>
+    </ul>
+  </main>
+</body>
+
+</html>
